@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/reset.css">
+        <style>
+            .grid-container {
+                width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: cornflowerblue;
+                height: 70vh;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                grid-template-rows: repeat(4, 1fr);
+                gap: 10px;
+                /*grid-template-areas:
+                "box1 box1 box4 box4"
+                "box2 box2 box4 box4"
+                "box2 box2 box4 box4"
+                "box3 box3 box3 box3"
+                ;*/
+
+            }
+
+            .griditem {
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                font-size: 24px;
+                background-color: darkseagreen;
+            }
+/*
+            .span-horizontal-2 {
+                grid-column: span 2;
+            }
+
+            .span-vertical-2 {
+                grid-row: span 2;
+            }*/
+
+         /* .hor-1-4 {
+                /*grid-column-start: 1;
+                grid-column-end: 4;
+                grid-column: 1/4;
+            }
+
+            .ver-4-5 {
+                grid-row-start: 2;
+                grid-row-end: 4;
+            }
+
+            .griditem1 {
+                grid-area: box1;
+            }
+            .griditem2 {
+                grid-area: box2;
+            }   
+            
+            .griditem3 {
+                grid-area: box3;
+            }
+            .griditem4 {
+                grid-area: box4;
+            }*/
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="grid-container">
+            <div class="griditem griditem1 hor-1-4">
+                item 1
+            </div>
+
+            <div class="griditem griditem2 ver-4-5">
+                item 2
+            </div>
+
+            <div class=" griditem griditem3">
+                item 3
+            </div>
+
+            <div class=" griditem griditem4 span-vertical-2">
+                item 4
+            </div>
+
+            <div class="griditem griditem1 hor-1-4">
+                item 1
+            </div>
+
+            <div class="griditem griditem2 ver-4-5">
+                item 2
+            </div>
+
+            <div class=" griditem griditem3">
+                item 3
+            </div>
+
+            <div class=" griditem griditem4 span-vertical-2">
+                item 4
+            </div>
+
+            <div class="griditem griditem1 hor-1-4">
+                item 1
+            </div>
+
+            <div class="griditem griditem2 ver-4-5">
+                item 2
+            </div>
+
+            <div class=" griditem griditem3">
+                item 3
+            </div>
+
+            <div class=" griditem griditem4 span-vertical-2">
+                item 4
+            </div>
+
+            
+
+        </div>
+
+    </body>
+
+</html>
