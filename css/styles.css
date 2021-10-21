@@ -1,0 +1,469 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../assets/Fonts/Raleway-Medium.ttf");
+    font-weight: 500;
+}
+
+body {
+    background-color: #F9F4EC;
+}
+
+ h1 {
+     font-family: Raleway, Arial, Helvetica, sans-serif;
+     font-weight: 500;
+ }
+
+ h2 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+ }
+
+ h3 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+ }
+
+ .title {
+    text-align: center;
+    padding: 80px;
+    font-size: 48px;
+}
+
+.title2 {
+   text-align: center;
+   font-size: 31.25px;
+}
+
+.title3 {
+   text-align: center;
+   margin: 20px;
+   font-size: 20px;
+}
+
+.card-2 .title3 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a h4 {
+    color: #000;
+}
+
+a:hover h4 {
+   color: #7FA493;
+}
+
+a .h4-2 {
+    color: #000;
+}
+
+a:hover .h4-2 {
+   color: #fff;
+   text-decoration: underline;
+}
+
+
+.header {
+    height: 480px;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+ .wrapper {
+    width: 100%;
+}
+
+.header-box {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    z-index: 10;
+    flex-flow: row wrap-reverse;
+}
+
+@media screen and (min-width: 768px) {
+    .header-box {
+        flex-flow: row nowrap;
+        min-width: 1000px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+}
+
+
+ .blog-name {
+    padding: 90px;
+    font-size: 40px;
+    flex-grow: 1;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+ }
+
+ @media screen and (min-width: 768px) {
+     .blog-name{
+        padding: 90px 0 0 0;
+     } 
+ }
+
+ .menu {
+     display: flex;
+     flex-grow: 1;
+     width: 200px;
+     margin-top:50px;
+     justify-content: space-evenly;
+     font-family: Roboto, Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     top: 50px;
+
+ }
+
+ .menu-item a {
+     color: #000;
+ }
+
+ .menu-item a:hover {
+    color: #666;
+    border-bottom: 2px solid #666;
+}
+
+
+ @media screen and (min-width: 768px) {
+    .menu {
+        justify-content: space-between; 
+    }
+ }
+
+
+
+ .layout {
+     width: 100%;
+     max-width: 1000px;
+     margin: 0 auto;
+ }
+
+ .card {
+     display: flex;
+     flex-flow: row wrap;
+     width: 100%;
+     background-color: #fff;
+ }
+
+
+
+ @media screen and (min-width: 768px) {
+    .card {
+        flex-flow: row nowrap;
+        margin: 20px 0;
+    }
+
+    .card-reverse {
+        flex-flow: row-reverse;
+        margin: 20px 0;
+     }
+ }
+
+ .card .card-img {
+     flex-grow: 1;
+ }
+
+ .card .card-img img {
+    width: 100%;
+    
+ }
+
+ @media screen and (min-width: 768px) {
+    .card .card-img img {
+        width: 500px;
+     }
+ }
+
+.card .card-text {
+    flex-grow: 2;
+    padding: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+    .card .card-text {
+    padding:0;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    }
+}
+
+.card .card-text h2 {
+    margin-bottom: 20px;
+}
+
+.card-2 {
+    width: 100%;
+    height: 500px;
+    background-color: #7FA493;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-2 .card-text-2 {
+    flex-grow: 1;
+    padding: 30px;
+    margin: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.card-img-2 img {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@media screen and (min-width: 768px) {
+    .card-img-2 img {
+        width: 100%;
+    }
+    .card-img-2 {
+        margin: 0 auto;
+    }
+}
+
+.footer {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.Social-Media {
+    display: flex;
+    flex-flow: row wrap;
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.icon1 {
+    width: 15px;
+    height: 15px;
+}
+
+.icon2 {
+    width: 15px;
+    height: 15px;
+}
+
+
+.Contact {
+    display: flex;
+    flex-flow: row wrap;
+    width: 180px;
+    height: 100px;
+    margin-left: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* side 2*/
+
+.header2 img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .header2 img {
+        height: 500px;
+    }
+}
+
+.back-icon {
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+}
+
+.card-3 {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-3 {
+        flex-flow: row nowrap;
+        margin: 20px 0px 0px 0px;
+        height: 400px;
+    }
+}
+
+.layout .card-3 .card-img-3 img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .layout .card-3 .card-img-3 img {
+        width: 350px;
+        height: 400px;
+        padding: 30px;
+        margin: 0;
+     }
+ }
+
+.card-text-3 {
+    margin-top: 30px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    
+}
+@media screen and (min-width: 768px) {
+    .card-3 .card-text-3 {
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+}
+
+.card-4 {
+    display: block;
+    flex-flow: row wrap;
+    margin: 30px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+    .card-4 {
+        margin: 0;
+        margin-left: 30px;
+        font-size: 20px;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+}
+
+.card-5 {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .card-5 {
+        flex-flow: row nowrap;
+        height: 400px;
+        margin: 0;
+        margin-left: 30px;
+    }
+}
+
+.layout .card-5 .card-img-5 img {
+    width: 100%;
+    padding: 0px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .layout .card-5 .card-img-5 img {
+        width: 400px;
+        height: 400px;
+        padding: 30px;
+        margin: 0;
+        margin-top: 50px;
+     }
+ }
+
+.card-text-5 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+    .card-text-5 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+}
+
+
+.card-img-5 img {
+    width: 550px;
+    height: 400px;
+    padding: 10px;
+}
+
+.image-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    margin: 20px;
+}
+
+.image-card img {
+    display: inline;
+    height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+    .image-card img {
+        height: 500px;
+    }
+}
+
+.single-img {
+    overflow-x: scroll;
+    margin: 30px;
+}
+
+.single-img img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .single-img img {
+        margin: 0;
+    }
+}
