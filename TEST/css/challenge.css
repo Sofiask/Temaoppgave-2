@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Explora&family=PT+Serif:ital@1&display=swap');
+
+header {
+    background-color: lavender;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.titel-1 {
+    font-family: 'Explora', cursive;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+body {
+    background-image: url("../assets/1.jpeg");
+}
+
+
+
+.titel-2 {
+    font-family: 'Explora', cursive;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: yellowgreen;
+    color: aliceblue;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    font-size: 20px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+main {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 940px;
+    width: 100%;
+}
+
+.text {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.container {
+    width: 30%;
+    height: 150px; 
+    background-color: lavender;
+    display: inline-block;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.nav-container {
+    width: 50%;
+    display:inline-block;
+}

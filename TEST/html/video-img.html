@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>img og video</title>
+    <link rel="stylesheet" href="../css/reset.css">
+
+    <style>
+        .wrapper {
+            width: 100vw;
+            height: 100vw;
+            background-color: darkseagreen;
+           /* background-image: url(../assets/photo-1609510368600-883b7f16d121.webp);*/
+            background-size: cover;
+            background-position: top;
+            position: relative;
+        
+        }
+
+        .claim {
+            position: absolute;
+            bottom: 80px;
+            left: 40px;
+            font-size: 48px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            z-index: 5;
+        }
+
+        .fade {
+            width: 100vw;
+            height: 100vw;
+            background-color: dimgrey;
+            z-index: 3;
+            opacity: 0.5;
+
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            object-fit: cover;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <video autoplay loop controls> 
+            <source src="../assets/video.mp4" type="video/mp4">
+        </video>
+
+        <div class="claim">
+            Mitt hus
+        </div>
+
+    </div>
+</body>
+</html>
