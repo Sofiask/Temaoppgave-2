@@ -1,5 +1,12 @@
+
 @font-face {
-    font-family: "Raleway";
-    src: url("../assets/Fonts/Raleway-Medium.ttf");
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    src: url("/assets/Fonts/Raleway-Regular.ttf");
     font-weight: 500;
+}
+
+@font-face {
+    font-family: Roborto, Arial, Helvetica, sans-serif;
+    src: url("/assets/Fonts/Raleway-Regular.ttf");
+    font-weight: 400;
 }
