@@ -5,14 +5,20 @@
 }
 
 @font-face {
-    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-family: Raleway;
     src: url("/assets/Fonts/Raleway-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("/assets/Fonts/Raleway-Medium.ttf");
     font-weight: 500;
 }
 
 @font-face {
-    font-family: Roborto, Arial, Helvetica, sans-serif;
-    src: url("/assets/Fonts/Raleway-Regular.ttf");
+    font-family: Roborto;
+    src: url("/assets/Fonts/Roboto-Regular.ttf");
     font-weight: 400;
 }
 
@@ -58,7 +64,7 @@ h3 {
    line-height: 30px;
 }
 
- h4 {
+h4 {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 20px;
