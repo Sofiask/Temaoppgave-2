@@ -90,6 +90,7 @@ h6 {
     line-height: 52px;
 }
 
+
 a {
     text-decoration: none;
     color: #000;
@@ -248,8 +249,16 @@ video {
 .card-text-small-2 {
     display: flex;
     justify-content: left;
-
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
+
+@media screen and (min-width: 840px) {
+    .card-text-small-2 {
+        padding-left: 0px;
+    }
+}
+
 
 .card-2 {
     width: 100%;
@@ -284,7 +293,7 @@ video {
 }
 
 .footer {
-    margin-top: 200px;
+    margin-top: 300px;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -345,6 +354,12 @@ video {
     justify-content: center;
 }
 
+.card-4 {
+    display: flex;
+    justify-content: center;
+}
+
+
 .text-box {
     font-family: Roborto, Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -358,6 +373,22 @@ video {
         width: 500px;
     }
 }
+
+.text-box-2 {
+    font-family: Roborto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 20px;
+}
+
+@media  screen and (min-width: 768px) {
+    .text-box-2 {
+        width: 500px;
+        padding: 0px;
+    }
+}
+
 
 .picture {
     margin-top: 50px;
